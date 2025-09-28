@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import SearchBox from './SearchBox';
-import InfoBox from './infoBox';
+import InfoBox from './InfoBox';
 import ForecastBox from './ForecastBox';
 import { getForecastByCoords } from './services/weatherService';
 import './App.css';
