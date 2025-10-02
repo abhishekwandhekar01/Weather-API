@@ -1,22 +1,24 @@
 # Weather-API 🌦️
 
-A simple weather app that fetches real-time weather data using external APIs and displays it in a clean interface. Built to practice API integration with modern web tools.
+A sleek weather web app built with **React + Vite** and powered by **OpenWeatherMap API**.  
+Search for any city, see real-time weather details, past 5 days data, and enjoy music that matches the mood of the weather.  
 
 ---
 
 ## 🚀 Features
-- Get current weather by city name  
-- Shows temperature, humidity, and conditions  
-- Responsive UI for mobile & desktop  
-- Error handling for invalid inputs  
-- Ready to deploy on Vercel or any Node hosting service  
+- 🔎 **Search by City Name** – instantly fetch weather data  
+- 🌡️ **Current Conditions** – temperature, humidity, wind, and more  
+- 🎵 **Weather-Based Music** – plays a specific song depending on the weather (e.g. rainy = chill vibes)  
+- 📅 **Past 5 Days Data** – historical trends for better insights  
+- 📱 **Responsive UI** – smooth experience on mobile and desktop  
 
 ---
 
 ## 🛠 Tech Stack
-- **Frontend**: Vite + Vanilla JS / React (depending on branch)  
-- **Database**: Not required (stateless API calls)  
-- **External API**: WeatherApi  
+- **Frontend:** React + Vite  
+- **Styling:** CSS / Tailwind (if used)  
+- **API Provider:** [OpenWeatherMap](https://openweathermap.org/api)  
+- **Deployment:** Vercel / Netlify  
 
 ---
 
@@ -29,31 +31,38 @@ git clone https://github.com/abhishekwandhekar01/Weather-API.git
 cd Weather-API
 npm install
 npm run dev
+or
 npm run build
 ```
 
 🔑 Environment Variables
+Create a .env file in the root:
+```
+VITE_WEATHER_API_KEY=your_openweathermap_api_key
+```
+You can get a free API key from OpenWeatherMap.
 
-Create a .env file in root with:
-
-WEATHER_API_KEY=your_api_key_here
-PORT=5000
+🌍 Usage
+- Enter a city name in the search bar.
+- View current weather conditions and past 5 days history.
+- Enjoy the music that changes with the weather mood.
 
 🌐 Demo
-
-Live Demo: https://weather-8zjkm0i2y-abhishek-s-projects-1ed9c222.vercel.app/
-
+- Live Demo: https://weather-8zjkm0i2y-abhishek-s-projects-1ed9c222.vercel.app/
 
 🤝 Contributing
-
-Pull requests are welcome!
-
+Feel free to fork and contribute.
+```
 Fork the repo
 
-Create your feature branch (git checkout -b feature-name)
+Create a new branch (git checkout -b feature-name)
 
 Commit your changes
 
-Push to the branch
+Push and open a PR
+```
 
-Open a PR
+📬 Contact
+- Made with ❤️ by Abhishek Wandhekar
+- Email: abhishekwandhekar4@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abhishek-wandhekar-302172293/
