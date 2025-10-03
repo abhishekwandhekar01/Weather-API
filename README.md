@@ -48,8 +48,7 @@ You can get a free API key from OpenWeatherMap.
 - Enjoy the music that changes with the weather mood.
 
 🌐 Demo
-- Live Demo: https://weather-8zjkm0i2y-abhishek-s-projects-1ed9c222.vercel.app/
-
+- Live Demo: https://weather-api-peach.vercel.app/
 🤝 Contributing
 Feel free to fork and contribute.
 ```
