@@ -49,6 +49,8 @@ You can get a free API key from OpenWeatherMap.
 
 🌐 Demo
 - Live Demo: https://weather-api-peach.vercel.app/
+
+  
 🤝 Contributing
 Feel free to fork and contribute.
 ```
